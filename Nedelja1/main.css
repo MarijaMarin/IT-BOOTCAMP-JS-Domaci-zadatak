@@ -1,0 +1,154 @@
+/*glavni elementi css*/
+body {
+	margin: 0px;
+}
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+/*nav elementi css*/
+.nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 45px;
+}
+.left-side {
+	display: flex;
+}
+.nav-wrapper > .left-side > div {
+	margin-left: 20px;
+	font-size: 1 em;
+}
+.nav-link {
+	height: 25px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.6s;
+}
+
+.nav-link a {
+	color: grey;
+	text-decoration: none;
+	transition: color 0.6s;
+}
+.nav-link :hover {
+	color: teal;
+	border-bottom: 1px solid teal;
+}
+.brand {
+	color: teal;
+}
+/*Grid slike*/
+.portfolio-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.portfolio-element {
+	position: relative;
+}
+.img-backgroung {
+	height: 350px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.img-text {
+	position: absolute;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+	color: white;
+	opacity: 0.3;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	text-transform: uppercase;
+}
+/*about*/
+
+.about-wrapper {
+	display: grid;
+	grid-template-columns: 1fr;
+	background-color: white;
+}
+h2 {
+	color: lightslategray;
+	text-align: center;
+	border-bottom: 1px solid lightgray;
+	padding-top: 40px;
+}
+p {
+	color: lightslategray;
+	text-align: center;
+	padding-right: 350px;
+	padding-left: 350px;
+	display: flex;
+	text-transform: capitalize;
+}
+/*project list*/
+.lista-wrapper {
+	display: inline-flex;
+	align-items: center;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	justify-items: center;
+}
+li a {
+	color: grey;
+	text-decoration: none;
+	transition: color 0.6s;
+}
+
+li {
+	display: inline-flex;
+	margin-left: 76px;
+	list-style: none;
+	align-items: center;
+	font-size: 1.1em;
+}
+li :hover {
+	color: teal;
+}
+#list {
+	align-items: center;
+}
+
+/*input i email*/
+
+.inp-container {
+	background-color: darkgray;
+	height: 130px;
+}
+
+input {
+	margin-top: 50px;
+	height: 35px;
+	width: 300px;
+	margin-left: 250px;
+	padding: 3px;
+}
+button {
+	height: 45px;
+	border: 3px solid white;
+	width: 200px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+.footer {
+	height: 90px;
+}
+#footer {
+	color: white;
+	background-color: darkgrey;
+	margin: auto;
+	padding-bottom: 50px;
+	text-transform: none;
+	text-align: center;
+}
