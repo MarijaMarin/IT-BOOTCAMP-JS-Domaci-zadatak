@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: darkgrey;
+	color: blanchedalmond;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+.budzet {
+	background-color: darkgrey;
+}
+.naslov {
+	text-align: center;
+	padding: 10px;
+}
+.ukupno {
+	color: lightblue;
+	text-align: center;
+	padding: 10px;
+}
+.polje1 {
+	background-color: navy;
+	margin: 50px;
+}
+.polje2 {
+	background-color: crimson;
+	margin: 50px;
+}
+#value1 {
+	float: left;
+	padding: 5px;
+	font-size: 20px;
+}
+#value2 {
+	float: left;
+	padding: 5px;
+	font-size: 20px;
+}
+.income {
+	text-transform: uppercase;
+	font-size: 15px;
+	padding: 5px;
+}
+.expences {
+	text-transform: uppercase;
+	font-size: 15px;
+	padding: 5px;
+}
+
+.container {
+	text-align: center;
+}
+#select {
+	background-color: lightgray;
+	font-size: 18px;
+}
+#dodaj {
+	background-color: lightgray;
+	font-size: 18px;
+}
+#dodaj1 {
+	background-color: lightgray;
+	font-size: 18px;
+}
+#dugme {
+	background-color: lightgray;
+	font-size: 15px;
+	padding: 3px;
+	background-color: crimson;
+	color: blanchedalmond;
+	border: blanchedalmond;
+}
+.lista1 {
+	display: flex;
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: center;
+	margin-top: 50px;
+}
+.lista2 {
+	display: flex;
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: center;
+	margin-top: 50px;
+}
+.lista-naslov1 {
+	float: left;
+}
+
+.lista-naslov2 {
+}
+.li-naslov1 {
+	text-transform: uppercase;
+	font-weight: lighter;
+	font-size: 30px;
+	color: cadetblue;
+}
+
+.li-naslov2 {
+	text-transform: uppercase;
+	font-weight: lighter;
+	font-size: 30px;
+	color: lightcoral;
+}
+
+#item1 {
+	font-size: 18px;
+	color: cadetblue;
+	text-underline-position: below;
+}
+#item2 {
+	font-size: 18px;
+	color: cadetblue;
+	text-underline-position: below;
+}
+
+#percent {
+	float: right;
+}
+#li1 {
+	margin-left: 100px;
+}
+#li2 {
+	margin-left: 100px;
+}
+
+.span1 {
+	margin-right: 20px;
+	color: rgb(131, 131, 177);
+	font-size: 20px;
+}
+.span2 {
+	margin-right: 20px;
+	color: rgb(131, 131, 177);
+	font-size: 20px;
+}
+.span3 {
+	margin-right: 20px;
+	color: rgb(131, 131, 177);
+	font-size: 20px;
+}
+.span4 {
+	margin-right: 20px;
+	color: rgb(131, 131, 177);
+	font-size: 20px;
+}
+.dugmeDel {
+	visibility: visible;
+	background-color: red;
+	color: white;
+}
+
+.dugmeDel1 {
+	visibility: visible;
+	background-color: red;
+	color: white;
+}
+
+button:hover {
+	background-color: yellow;
+}
